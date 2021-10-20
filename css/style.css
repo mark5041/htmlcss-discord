@@ -52,7 +52,7 @@ section:not(.fourth), footer {
 }
 
 main svg{
-    margin: -140px;
+    margin: -140px 0px;
 }
 
 footer {
