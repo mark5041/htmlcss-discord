@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: ‘Whitney’, sans-serif;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+    height: 100%;
+}
+
+.container {
+    max-width: 1260px;
+    width: 92.73828%;
+    margin: 0 auto;
+}
+
+section, footer {
+    height: 55vh;
+}
+
+section:nth-child(even) {
+    background-color: #F3F4F5;
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+}
+
+header .container .fl:first-child, header .container .fl:last-child {
+    width: 13.148525%;
+}
+
+header .container .fl:nth-child(2) {
+    width: 73.70095%;
+}
+
+header .container .fl {
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li a:hover,
+.nav ul li a:active,
+.nav ul li a:focus {
+    text-decoration: underline;
+}
+
+a.btn {
+    display: inline-block;
+    background-color: white;
+    border-radius: 2em;
+    padding: 1px 14px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header .text {
+    width: 44.80559%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6em 0;
+    color: white;
+}
+
+header .text h1 {
+    font-size: 3em;
+    margin-bottom: 0.8em;
+}
+
+header .text p {
+    line-height: 1.7em;
+    margin-bottom: 1.1em;
+}
+
+a.btn:hover {
+    color: #265ee8;
+    box-shadow: 0px 5px 10px black;
+}
+
+a.btn.big{
+    padding: 7px 23px;
+    font-weight: normal;
+}
+
+a.btn.dark{
+    background-color: #23272a;
+    color: white;
+    font-weight: bold;
+}
+
+a.btn.dark:hover,
+a.btn.dark:active,
+a.btn.dark:focus {
+    color: #265ee8;
+}
