@@ -47,10 +47,13 @@ section:not(.fourth), footer {
     height: 70vh;
 }
 
-section:nth-child(even) {
+.second, .fourth {
     background-color: #F3F4F5;
 }
 
+main svg{
+    margin: -140px;
+}
 
 footer {
     background-color: #2c2f33;
