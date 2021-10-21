@@ -44,7 +44,9 @@ html {
 }
 
 section:not(.fourth), footer {
-    height: 70vh;
+    height: 55vh;
+    display: flex;
+    align-items: center;
 }
 
 .second, .fourth {
@@ -52,7 +54,7 @@ section:not(.fourth), footer {
 }
 
 main svg{
-    margin: -126px 0px;
+    display: block;
 }
 
 footer {
@@ -186,52 +188,25 @@ section:not(.fourth) .box .paragraph {
     width: 40%;
 }
 
-section:not(.fourth) .box.image img{
+section:not(.fourth) .box .image img{
     width: 100%;
     max-width: 678px;
     max-height: 440px;
 }
 
 .paragraph h1 {
-    font-size: 2.5em;
+    font-size: 200%;
     line-height: 1.3em;
     margin-bottom: 0.6em;
 }
 
 .paragraph p {
-    font-size: 1.3em;
-    line-height: 1.5em;
+    font-size: 155%;
+    line-height: 150%;
     margin-bottom: 0.6em;
 }
 
 /*  section */
-
-
-
-
-/* first section */
-
-
-
-/* end first section */
-
-
-
-
-/* second section */
-
-
-
-/* end second section */
-
-
-
-
-/* tird section */
-
-
-
-/* end tird section */
 
 
 
@@ -265,7 +240,7 @@ section:not(.fourth) .box.image img{
 }
 
 .centered h1 {
-    font-size: 2em;
+    font-size: 200%;
     padding-top: 1.5em;
 }
 
